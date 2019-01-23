@@ -6,6 +6,6 @@ Docker image to build android images
 ### Create a `Dockerfile` in your project
 
 ```dockerfile
-FROM qgadrian/docker-android-builder:latest
+FROM garciapd/docker-android-builder:latest
 # application instructions
 ```
