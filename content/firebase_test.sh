@@ -73,8 +73,5 @@ gcloud firebase test android run \
   --type instrumentation \
   --app ${PROD_APK_PATH} \
   --test ${TEST_APK_PATH} \
-  --device-ids ${DEVICES} \
-  --os-version-ids ${SDKS} \
-  --network-profile ${NETWORK_PROFILE} \
-  --locales ${LOCALES} \
-  --orientations ${ORIENTATIONS}
+  --device model=Nexus5,version=23,locale=en,orientation=portrait \
+  --timeout 90s
